@@ -32,7 +32,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.common.orange,
     borderRadius: 50,
     height: 45,
-    widht: 145,
+    width: 145,
     marginRight: 40,
     "&:hover": {
       backgroundColor: theme.palette.secondary.light,
@@ -101,7 +101,7 @@ const useStyles = makeStyles((theme) => ({
   },
   revolutionCard: {
     position: "absolute",
-    boxShadwo: theme.shadows[10],
+    boxShadow: theme.shadows[10],
     borderRadius: 15,
     padding: "10em",
     [theme.breakpoints.down("sm")]: {
@@ -190,7 +190,7 @@ const LandingPage = () => {
               Save Energy. Save Time. Save Money.
             </Typography>
             <Typography variant="subtitle1">
-              Complete digital solutions, from investigaton to{" "}
+              Complete digital solutions, from investigation to{" "}
               <span className={classes.specialText}>celebration</span>.
             </Typography>
             <Button variant="outlined" className={classes.learnButton}>
@@ -352,7 +352,6 @@ const LandingPage = () => {
               textAlign: matchesXS ? "center" : "inherit",
             }}
             direction={matchesXS ? "column" : "row"}
-            spacing={matchesXS ? 10 : 0}
           >
             <Grid
               item
